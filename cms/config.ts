@@ -15,22 +15,17 @@ export default {
         {
           label: 'Home',
           name: 'home',
-          file: 'content/home.md',
+          file: 'content/pages/home.md',
           fields: [
             {
-              label: 'Hero Title',
-              name: 'hero_title',
+              label: 'Title',
+              name: 'title',
               widget: 'string',
             },
             {
-              label: 'Hero Description',
-              name: 'hero_description',
-              widget: 'markdown',
-            },
-            {
-              label: 'Hero Image',
-              name: 'hero_image',
-              widget: 'image',
+              label: 'Description',
+              name: 'description',
+              widget: 'string',
             },
           ],
         },
