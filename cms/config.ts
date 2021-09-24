@@ -14,6 +14,7 @@ export default {
         {
           label: 'Home',
           name: 'home',
+          extension: 'md',
           file: 'content/pages/home.md',
           fields: [
             {
