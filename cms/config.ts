@@ -14,24 +14,7 @@ export default {
         {
           label: 'Home',
           name: 'home',
-          file: 'content/pages/home.yaml',
-          fields: [
-            {
-              label: 'Title',
-              name: 'title',
-              widget: 'string',
-            },
-            {
-              label: 'Description',
-              name: 'description',
-              widget: 'string',
-            },
-          ],
-        },
-        {
-          label: 'About',
-          name: 'about',
-          file: 'content/pages/about.md',
+          file: 'content/pages/home.md',
           fields: [
             {
               label: 'Title',
