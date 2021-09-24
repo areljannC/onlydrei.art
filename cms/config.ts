@@ -1,5 +1,4 @@
 export default {
-  cms_manual_init: true,
   backend: {
     name: 'github',
     repo: 'areljannC/onlydrei.art',
@@ -15,7 +14,24 @@ export default {
         {
           label: 'Home',
           name: 'home',
-          file: 'content/pages/home.md',
+          file: 'content/pages/home.yaml',
+          fields: [
+            {
+              label: 'Title',
+              name: 'title',
+              widget: 'string',
+            },
+            {
+              label: 'Description',
+              name: 'description',
+              widget: 'string',
+            },
+          ],
+        },
+        {
+          label: 'About',
+          name: 'about',
+          file: 'content/pages/about.md',
           fields: [
             {
               label: 'Title',
