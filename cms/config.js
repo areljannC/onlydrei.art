@@ -4,7 +4,8 @@ const config = {
   backend: {
     name: 'github',
     repo: 'areljannC/onlydrei.art',
-    branch: 'master'
+    branch: 'master',
+    base_url: 'https://www.onlydrei.art/'
   },
   media_folder: 'public/img',
   public_folder: 'img',
