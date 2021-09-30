@@ -63,7 +63,7 @@ const MobileNav: FunctionComponent = () => {
                 color='#202020'
                 fontSize='24'
                 onClick={disclosure.onClose}
-                href='https://www.instagram.com/'
+                href='https://www.instagram.com/_justdreii'
                 target='_blank'
               >
                 Instagram
