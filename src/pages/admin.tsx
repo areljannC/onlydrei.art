@@ -4,7 +4,7 @@ import Head from 'next/head';
 import dynamic from 'next/dynamic';
 
 // LOCAL IMPORTS
-import config from '../../cms/config.ts'
+import config from '../../cms/config';
 
 // CMS Setup
 const CMS = dynamic(

@@ -1,8 +1,4 @@
-// EXTERNAL IMPORTS
-import { CmsConfig } from 'netlify-cms-core';
-
-const config: CmsConfig = {
-  // @ts-ignore
+const config = {
   cms_manual_init: true,
   local_backend: true,
   backend: {
@@ -34,7 +30,6 @@ const config: CmsConfig = {
                   label: 'Cover Image',
                   name: 'coverImage',
                   widget: 'image',
-                  // @ts-ignore
                   choose_url: false,
                   required: true
                 },
@@ -106,7 +101,6 @@ const config: CmsConfig = {
           label: 'Image',
           name: 'image',
           widget: 'image',
-          // @ts-ignore
           choose_url: false,
           required: true,
         },
@@ -115,7 +109,6 @@ const config: CmsConfig = {
           name: 'date',
           widget: 'date',
           required: true,
-          // @ts-ignore
           format: 'DD MM YYYY',
         },
         {
