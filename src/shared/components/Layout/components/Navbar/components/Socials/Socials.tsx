@@ -7,13 +7,13 @@ import { MdShare } from 'react-icons/md';
 // Component
 const Socials: FunctionComponent = () => (
   <HStack spacing='16px' display={{ base: 'none', lg: 'block' }}>
-    <Link href='https://www.instagram.com/' target='_blank'>
+    <Link href='https://www.instagram.com/_justdreii' target='_blank'>
       <Icon as={SiInstagram} color='#FEFEFE' width='24px' height='24px' />
     </Link>
-    <Link href='https://www.tiktok.com/en/' target='_blank'>
+    {/* <Link href='https://www.tiktok.com/en/' target='_blank'>
       <Icon as={SiTiktok} color='#FEFEFE' width='24px' height='24px' />
     </Link>
-    <Icon as={MdShare} color='#FEFEFE' width='24px' height='24px' />
+    <Icon as={MdShare} color='#FEFEFE' width='24px' height='24px' /> */}
   </HStack>
 );
 

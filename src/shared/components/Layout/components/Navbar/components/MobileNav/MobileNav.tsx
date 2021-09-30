@@ -59,11 +59,6 @@ const MobileNav: FunctionComponent = () => {
                   Art
                 </Link>
               </NextLink>
-              <NextLink href='/series' passHref>
-                <Link color='#202020' fontSize='24' onClick={disclosure.onClose}>
-                  Series
-                </Link>
-              </NextLink>
               <Link
                 color='#202020'
                 fontSize='24'
@@ -72,18 +67,6 @@ const MobileNav: FunctionComponent = () => {
                 target='_blank'
               >
                 Instagram
-              </Link>
-              <Link
-                color='#202020'
-                fontSize='24'
-                onClick={disclosure.onClose}
-                href='https://www.tiktok.com/en/'
-                target='_blank'
-              >
-                TikTok
-              </Link>
-              <Link color='#202020' fontSize='24' onClick={disclosure.onClose}>
-                Share
               </Link>
             </VStack>
           </Flex>

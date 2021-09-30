@@ -2,6 +2,9 @@
 import React, { FunctionComponent, memo } from 'react';
 import { Flex } from '@chakra-ui/react';
 
+// SHARED IMPORTS
+import { NAVBAR_HEIGHT } from '../../../../constants';
+
 // LOCAL IMPORTS
 import { Navlinks, Logo, Socials, MobileNav } from './components';
 
@@ -10,15 +13,14 @@ const Navbar: FunctionComponent = () => (
   <Flex
     as='nav'
     width='100%'
-    height='120px'
+    height={{ base: NAVBAR_HEIGHT.MOBILE, lg: NAVBAR_HEIGHT.DESKTOP }}
     paddingX={{ base: '4', lg: '36', xl: '64' }}
     justifyContent='space-between'
     alignItems='center'
     backgroundColor='#202020'
   >
-    <Navlinks />
     <Logo />
-    <Socials />
+    <Navlinks />
     <MobileNav />
   </Flex>
 );

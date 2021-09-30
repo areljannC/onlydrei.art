@@ -1,7 +1,8 @@
 // EXTERNAL IMPORTS
 import React, { FunctionComponent, memo } from 'react';
 import NextLink from 'next/link';
-import { HStack, Link } from '@chakra-ui/react';
+import { HStack, Link, Icon } from '@chakra-ui/react';
+import { SiInstagram } from 'react-icons/si';
 
 // Component
 const Navlinks: FunctionComponent = () => (
@@ -15,10 +16,10 @@ const Navlinks: FunctionComponent = () => (
     <NextLink href='/art' passHref>
       <Link color='#FEFEFE'>Art</Link>
     </NextLink>
-    <NextLink href='/series' passHref>
-      <Link color='#FEFEFE'>Series</Link>
-    </NextLink>
-  </HStack >
+    <Link href='https://www.instagram.com/_justdreii' target='_blank'>
+      <Icon as={SiInstagram} color='#FEFEFE' width='24px' height='24px' />
+    </Link>
+  </HStack>
 );
 
 // Display Name
